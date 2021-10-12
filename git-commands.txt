@@ -1,0 +1,25 @@
+GIT COMMANDS:
+
+Check Version : git --version
+Set Global config username : git config --global user.name "Yash Vyas"
+Set Global config email : git config --global user.email "yash.vyas@openxcellinc.com"
+Edit Global config : git config --global --edit
+Initialize git repository : git init
+Track the untracked files : git add <filename>
+Check the status of tracked and untracked files : git status
+Commit changes : git commit -m "commit message"
+Commit history : git log
+Switch to commit : git checkout <commit hash code/branch name>
+Switch to master branch : git checkout master
+Create a branch : git branch <branchname>
+Create a branch and switch to it : git checkout -b <branchname>
+Ignore files to be tracked : touch .gitignore => <filename> in .gitignore
+Add remote: git remote add origin <url.git>
+Push to branch(origin) : git push -u origin master
+Chech remotes : git remote -v
+
+Contribute to open source:
+1.Fork the repo you want to contribute to.
+2.Clone the repo from your account using git clone <url.git>
+3.Make all changes, add them to staging area, commit them and push them eventually using commands like git add <filename> / git add . , git commit -m "message" , git push
+4.Create a pull request from github and wait for it to get merged by the maintainer
